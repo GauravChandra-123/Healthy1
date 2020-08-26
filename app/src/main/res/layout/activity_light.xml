@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Light"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:text="Light Beer View"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brands:
+
+ Bud Light
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Coors Light
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Budweiser"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="210dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="40dp"
+        android:text="Light beers may be chosen by beer drinkers who wish to manage their alcohol consumption or their calorie intake; however, they are sometimes criticised for being less flavourful than full-strength beers, or for tasting or actually being watered down."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

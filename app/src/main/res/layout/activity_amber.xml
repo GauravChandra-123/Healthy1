@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Amber"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Amber Beer View"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="29dp"
+        android:text="Amber beer showcases a medium-high to high malt character with medium to low caramel character derived from the use of roasted crystal malts."
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brands: Rogue American Amber Ale,
+
+
+Alaskan Brewing Amber (91),
+
+
+
+Wasatch Brewery Evolution Amber Ale (93),
+
+
+Dry Dock Amber (93)."
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="30dp"
+        android:textSize="23dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/textView8"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>

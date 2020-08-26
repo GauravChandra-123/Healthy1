@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dark"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="Dark Beer View"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="25dp"
+        android:text="A dark beer is any beer darker than slightly tinted water. That would include bitters, pale ales, IPAs, amber lagers, Octoberfests and a host of other beers that more knowledgeable beer drinkers don't consider truly dark"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand:Imperial Stout,
+ Black IPA,
+Beer for Breakfast. "
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@+id/textView14"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"/>
+</RelativeLayout>
